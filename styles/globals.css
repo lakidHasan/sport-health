@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -104,4 +108,53 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.body-bg {
+  background-image: url("/bg.png");
+  background-repeat: no-repeat;
+}
+
+/* navbar style  */
+.navbar-gap li {
+  margin-right: 39px;
+}
+.log-in {
+  width: 47px;
+  height: 24px;
+  color: #ffff;
+  background: #264373;
+  font-weight: 400;
+  font-size: 16px;
+  box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+  border-radius: 10px;
+}
+.logo span {
+  color: white;
+  background-color: #6765f0;
+  padding: 5px;
+  border-radius: 3px;
+}
+.logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  color: #6765f0;
+}
+
+/* hero-section  */
+.hero {
+  font-weight: 700;
+  font-size: 56px;
+  width: 568px;
+  /* height: 146px; */
+  color: white;
+}
+
+/* description section  */
+.describe-title {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 73px;
 }
