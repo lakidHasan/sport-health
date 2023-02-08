@@ -3,7 +3,7 @@ import { FiMenu } from "react-icons/fi";
 function Navbar() {
   return (
     <>
-      <div className="container mx-auto flex justify-between py-4">
+      <div className="container mx-auto flex justify-between py-7">
         <div className="logo">
           <span>Gym</span> baran
         </div>
@@ -23,9 +23,7 @@ function Navbar() {
               <li>About Us</li>
             </Link>
           </ul>
-          <button className="flex align-item-center justify-between  hidden md:flex log-in">
-            Log in
-          </button>
+          <button className=" log-in">Log in</button>
         </div>
 
         <div className="md:hidden text-[24px]">
